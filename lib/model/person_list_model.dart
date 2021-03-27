@@ -3,6 +3,7 @@ class PersonListItemModel {
   final String name;
   final String status;
   final String species;
+  final String url;
 
-  PersonListItemModel({this.id, this.name, this.status, this.species});
+  PersonListItemModel({this.id, this.name, this.status, this.species, this.url});
 }
